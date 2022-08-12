@@ -5,6 +5,7 @@ interface Demo{
     void abc();
     default void show1(){
         System.out.println("in demo");
+        //in demo
     }
 
     static void show(){
@@ -16,6 +17,8 @@ interface Demo2{
 
     default void show1(){
         System.out.println("in demo2");
+        //In demo2
+
     }
 }
 
